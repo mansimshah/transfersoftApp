@@ -1,13 +1,14 @@
 import React from 'react';
+import UploadForm from './UploadForm.jsx'
 
-class uploadFile extends React.Component {
-   render() {
+class UploadFile extends React.Component {
+    render() {
 		return (
-		 <div>
-		 	<uploadForm/>
-		 </div>
+			<div>
+				<UploadForm/>
+			</div>
 		);
-   }
+    }
 }
 
-export default uploadFile;
+export default UploadFile;

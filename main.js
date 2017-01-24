@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import uploadFile from './uploadFile.jsx';
+import UploadFile from './UploadFile.jsx'
 
-ReactDOM.render(<uploadFile />, document.getElementById('app'));
+ReactDOM.render(<UploadFile/>, document.getElementById('app'));
